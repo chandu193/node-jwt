@@ -1,0 +1,18 @@
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2FnYXIiLCJpYXQiOjE1NzQ3NzU3MzcsImV4cCI6MTU3NDc3NTc1Mn0.Z1uwkJq3uMMOCx_kKIq457m9YQTwMn9MT_X6TFBrtKw
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "userName": "sagar"
+}
+
+###
+POST http://localhost:5000/getToken
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2FnYXIiLCJpYXQiOjE1NzQ3NzU3Mzd9.8pXXI43CECPIRQ4PS9Gt0QWsQUSmV2cexSnTG9jntJU"
+}
